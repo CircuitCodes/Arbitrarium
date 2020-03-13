@@ -1,0 +1,26 @@
+{
+  "name": "arbitrarium",
+  "version": "0.0.1",
+  "description": "An asynchronous controller framework for TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/CircuitCodes/Arbitrarium",
+  "author": "CircuitRCAY",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "cleanCompile": "yarn clean && yarn compile",
+    "prepublishOnly": "yarn build"
+  }
+}
