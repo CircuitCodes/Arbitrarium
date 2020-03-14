@@ -21,6 +21,6 @@
     "compile": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "cleanCompile": "yarn clean && yarn compile",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn cleanCompile"
   }
 }

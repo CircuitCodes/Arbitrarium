@@ -1,0 +1,21 @@
+{
+  "name": "arbitrarium-hello-world",
+  "version": "1.0.0",
+  "description": "Sample project for the Arbitrarium library.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/CircuitCodes/Arbitrarium",
+  "author": "CircuitRCAY",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

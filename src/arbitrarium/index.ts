@@ -12,7 +12,7 @@ export default class Arbitrarium {
      * @param app The Express application
      * @param router The Express {@link https://expressjs.com/en/guide/routing.html|router}.
      */
-    public Arbitrarium(router: Router, app: Application) {
+    constructor(router: Router, app: Application) {
         this.router = router;
         this.app = app;
 

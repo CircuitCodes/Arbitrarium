@@ -2,8 +2,8 @@ import { Methods } from "../other/methodType";
 import { Request, Response } from "express";
 
 export abstract class Controller {
-    public path: string;
-    public method: Methods;
+    public abstract path: string;
+    public abstract method: Methods | string;
 
     /**
      * Executes the controller logic
