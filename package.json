@@ -1,6 +1,6 @@
 {
   "name": "arbitrarium",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An asynchronous controller framework for TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
