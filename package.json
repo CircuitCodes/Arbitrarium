@@ -22,5 +22,10 @@
     "clean": "rimraf dist",
     "cleanCompile": "yarn clean && yarn compile",
     "prepublishOnly": "yarn cleanCompile"
-  }
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE.md"
+  ]
 }
